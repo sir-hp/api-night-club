@@ -1,0 +1,15 @@
+{
+  "name": "nightclub-api-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 4000 --static ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Emilius <be@rts.dk>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
